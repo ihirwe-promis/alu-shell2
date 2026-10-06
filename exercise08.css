@@ -1,0 +1,37 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+    color:aliceblue;
+    background-color:black;
+}
+nav{
+    display:flex;
+    justify-content:center;
+    gap: 3px;
+}
+section{
+    color:azure;
+    font-size:large;
+}
+#heading1{
+    color:antiquewhite;
+}
+#heading2{
+    color:aqua;
+}
+#heading3{
+    color:aquamarine;
+}
+#heading4{
+    color:bisque;
+}
+@media (max-width:1000px){
+    *{
+        color:black;
+        background-color:aliceblue;
+    }
+}
